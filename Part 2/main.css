@@ -57,33 +57,26 @@ body {
 	margin-top: 40px;
 }
 
-.col-4 {
+.my-col-4 {
 	box-sizing: border-box;
 	width: 33%;
 	float: left;
 	display: inline-block;
 }
 
-.row::after {
+.my-row::after {
     content: "";
     clear: both;
     display: table;
     box-sizing: border-box;
 }
 
-.col-3 {
+.my-col-3 {
 	box-sizing: border-box;
 	float: left;
 	width: 25%;
 	padding: 20px;
 	display: inline-block;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-    box-sizing: border-box;
 }
 
 .bg-image {
